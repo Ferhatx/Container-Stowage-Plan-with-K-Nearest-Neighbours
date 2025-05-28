@@ -29,7 +29,7 @@ The project runs stably on all ships with six cargo holds.
 
 ## Dataset
 
-- A sample dataset containing container information is included as a dataset.csv file.
+- A sample dataset containing container information is included as a `dataset.csv` file.
 
 - The model is trained using historical loading data and cargo hold details.
 
