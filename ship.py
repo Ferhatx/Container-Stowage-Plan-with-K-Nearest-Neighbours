@@ -894,7 +894,7 @@ class Ui_Form(object):
         #
         self.shipinfo_csv=[]
         
-        self.veri=pd.read_csv('veriseti.csv')
+        self.veri=pd.read_csv('dataset.csv')
         self.veri['STARTPORT'].replace(['FR','MER','DZ'],[10,11,12],inplace=True)
         # FRANSA=10 MERSİN=11 CEZAYİR=12 
         self.veri['STOPPORT'].replace(['FR','MER','DZ'],[10,11,12],inplace=True)
