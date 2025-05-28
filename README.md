@@ -1,5 +1,5 @@
 
-# K-Nearest Neighbor and Container Stowage
+# 📦 K-Nearest Neighbor and Container Stowage
 
 This project aims to prevent structural damage and environmental pollution caused by incorrect container loading on cargo ships. Improper stowage can result in structural breakage, listing (capsizing), and massive financial losses for shipowners, as well as significant marine pollution.
 
@@ -7,7 +7,7 @@ The system I developed ensures safe container distribution by maintaining the sh
 
 The project runs stably on all ships with six cargo holds.
 
-## How It Works
+## ⚙️ How It Works
 
 1.The ship’s cargo hold structure and current load status are input.
 
@@ -18,7 +18,7 @@ The project runs stably on all ships with six cargo holds.
 4.The system suggests the optimal placement and minimizes unloading costs.
 
 
-## Features
+## 🚀 Features
 
 - Container loading algorithm that helps maintain ship stability
 - Container placement decisions using the K-Nearest Neighbors algorithm
@@ -27,14 +27,14 @@ The project runs stably on all ships with six cargo holds.
 - Real-time decision support system
 
 
-## Dataset
+## 📊 Dataset
 
 - A sample dataset containing container information is included as a `dataset.csv` file.
 
 - The model is trained using historical loading data and cargo hold details.
 
 
-## Usage
+## 🔧 Usage
 
 Run the script:
 
@@ -42,7 +42,7 @@ Run the script:
   python ship.py
 ```
     
-## Technologies and Libraries Used
+## 🛠 Technologies and Libraries Used
 
 - Python
 - `math`
